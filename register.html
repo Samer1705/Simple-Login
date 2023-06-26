@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5 px-5">
+        <div class="border border-dark text-center mx-auto w-75 shadow-lg px-5">
+            <h1 class="text-info mt-5">Smart Login System</h1>
+            <input type="text" placeholder="Enter your name" class="form-control mx-auto bg-transparent my-3 text-white" id="regName">
+            <input type="email" placeholder="Enter your email" class="form-control mx-auto bg-transparent my-3 text-white" id="regMail">
+            <input type="password" placeholder="Enter your password" class="form-control mx-auto bg-transparent my-3 text-white" id="regPass">
+            <p class="text-danger d-none" id="emailExist">Email already exists</p>
+            <p class="text-danger d-none" id="required">All inputs are required</p>
+            <p class="text-success d-none" id="success">success</p>
+            <button class="btn btn-outline-info w-100 my-3" id="signUp">Sign UP</button>
+            <p class="text-white mb-5">You have an account? <a href="index.html" class="text-white">Sign In</a></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
